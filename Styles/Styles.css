@@ -1,0 +1,32 @@
+/*Pagina Principal*/
+body{
+    background-color: grey;
+    background-image: url(../Fonfo/fondo.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+}
+.Navbar{
+    background-color: #1E1E1E;
+    height: 50px;
+   
+    
+}
+a {
+    text-decoration: none;
+  }
+
+.Nombre{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.Nav *{
+    color: white;
+    line-height: 50px;
+}
+
+.Nav a{
+    margin: 10px;
+
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@200&display=swap');
+
+body{
+    height: 100vh;
+    background-color: grey;
+    background-image: url(../Fonfo/fondo.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+}
+/*Navegacion De Paginas General*/
+
+.Navbar{
+    background-color: #1E1E1E;
+    height: 80px; 
+}
+.Nav *{
+    color: white;
+    line-height: 50px;
+}
+.Nav a{
+    margin: 10px;
+
+}
+a {
+    text-decoration: none;
+}
+.NombreP{
+    display: flex;
+    justify-content:center;
+    justify-content:end;
+}
+
+/*Limited Pagina*/
+
+.LIMITED{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+}
+
+/*Contacto Pagina*/
+
+.Contacto{ 
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Anek Bangla', sans-serif;
+}
+#Horarios{
+    background: rgba(240, 240, 240, 0.315);
+    margin: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+#mayoristas{
+    background: rgba(240, 240, 240, 0.315);
+    margin: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*Contacto Formulario*/
+
+#contactoF{
+    background: rgba(240, 240, 240, 0.315);
+     height: 400px;
+     margin: 100px ;
+     padding: 10px 20px;
+     box-sizing: border-box;
+     border-radius: 5px;
+}
+#contactanosF{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.F {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box; 
+}
+textarea{
+    max-height: 100px;
+    min-height: 120px;
+    max-width: 100%;
+}
+/*Prueba Producto*/
+
+.PageLimit{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.producto {
+    flex-basis: calc(50% - 20px);
+    padding-bottom: 30px;
+    background-color: #c7c5c5d3;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+    .producto {
+        flex-basis: calc(33.33% - 50px);
+    }
+}
+.precio {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.descripcion {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.boton {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.boton:hover {
+    background-color: rgb(0, 0, 0);
+}
+  
