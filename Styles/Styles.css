@@ -1,32 +1,147 @@
-/*Pagina Principal*/
-body{
-    background-color: grey;
-    background-image: url(../Fonfo/fondo.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin:0;
-}
-.Navbar{
-    background-color: #1E1E1E;
-    height: 50px;
-   
-    
-}
-a {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
     text-decoration: none;
-  }
-
-.Nombre{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
 }
-.Nav *{
+body{
+   background-color: black; 
+}
+/*Pagina Principal*/
+
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondo\ opcion\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center; 
+    padding: 1% 5%; 
+}
+.main-text{
+    padding-top: -250px;
+}
+.main-text h5{
+    color: #B93452;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.main-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+.main-text p{
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.NombreD{
+    color: rgb(255, 167, 4);
+    text-decoration: none;
+}
+.main-btn{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid white;
+    padding: 12px 25px;
+    transition: all .42s ease;
+
+}
+.main-btn:hover{
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+
+
+}
+.main-btn i{
+ vertical-align: middle; 
+}
+
+.down-arrow{
+     position: absolute;
+     top: 85%;
+     right: 11%;
+}
+.down-arrow i{
+    font-size: 30px;
     color: white;
-    line-height: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 5px 5px;
+}
+.down-arrow i:hover{
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+    transition: all .42s ease;
+}
+/*  */
+  @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@200&family=Rubik+Iso&display=swap');
+.center-text h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Rubik Iso', cursive;
+    text-align: center;
+    margin-bottom: 30px;
+}
+img {
+    max-width: 150%;
+    height: auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.producto {
+    flex-basis: calc(50% - 20px);
+    padding-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+    .producto {
+        flex-basis: calc(33.33% - 50px);
+    }
+}
+.precio {
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
-.Nav a{
-    margin: 10px;
+.main-products{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/fondo\ opcion\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
+/* prueba */
+.my-4 span{
+    color: orange;
+}
+
+.footer{
+    text-decoration: none;
 }

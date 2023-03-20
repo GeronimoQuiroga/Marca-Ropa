@@ -1,42 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@200&display=swap');
 
 body{
-    height: 100vh;
-    background-color: grey;
-    background-image: url(../Fonfo/fondo.jpg); 
+    background-image: url(../img/fondo.jpg)  ;
     background-size: cover;
-    background-repeat: no-repeat;
-    margin:0;
-}
-/*Navegacion De Paginas General*/
-
-.Navbar{
-    background-color: #1E1E1E;
-    height: 80px; 
-}
-.Nav *{
-    color: white;
-    line-height: 50px;
-}
-.Nav a{
-    margin: 10px;
-
-}
-a {
-    text-decoration: none;
-}
-.NombreP{
-    display: flex;
-    justify-content:center;
-    justify-content:end;
+    background-position: center;
+    max-width: 2560px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
 }
 
 /*Limited Pagina*/
 
-.LIMITED{
-    color: white;
+.Limited{
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 65px;
+    padding: 20px;
+}
+.PageLimit{
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1px;
+}
+.producto h2{
+    color: whitesmoke;
+}
+.precio {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.boton {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+.boton:hover {
+    background-color: rgb(253, 253, 253);
+    color: black;
+}
+
+.fondo{
+    background-color: rgba(7, 7, 7, 0);
+    border-radius: 20px;
+
 }
 
 /*Contacto Pagina*/
@@ -90,64 +114,4 @@ textarea{
 }
 /*Prueba Producto*/
 
-.PageLimit{
-    margin: 0;
-    padding: 0;
-}
-h1 {
-    font-size: 2em;
-    margin-top: 0;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-.productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-.producto {
-    flex-basis: calc(50% - 20px);
-    padding-bottom: 30px;
-    background-color: #c7c5c5d3;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-}
-@media only screen and (min-width: 768px) {
-    .producto {
-        flex-basis: calc(33.33% - 50px);
-    }
-}
-.precio {
-    font-size: 1.5em;
-    margin-top: 20px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-.descripcion {
-    margin-top: 20px;
-    line-height: 1.5;
-}
-.boton {
-    display: inline-block;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    margin-top: 20px;
-}
-.boton:hover {
-    background-color: rgb(0, 0, 0);
-}
   
